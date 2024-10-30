@@ -1,4 +1,4 @@
-numero = IO.gets("Por favor, ingrese su edad: ")
+numero = IO.gets("Por favor, ingrese un nùmero: ")
 #IO.puts("La edad que ingreso es: #{String.trim(input)}")
 num = String.trim(numero) |> String.to_integer()
 
