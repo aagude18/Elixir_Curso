@@ -3,10 +3,8 @@ defmodule CajaRegistradora do
 
   # Función principal para iniciar la caja registradora
   def iniciar do
-    IO.puts("Bienvenido a la Caja Registradora")
-    IO.puts("Productos disponibles:")
+    IO.puts ("\nBienvenido a la Caja Registradora.\n\nProductos disponibles:\n")
     mostrar_productos()
-
     total = procesar_compra(0, %{})
     IO.puts("\nTotal a pagar: $#{total}")
   end
